@@ -8,6 +8,7 @@ namespace DotNetTicketSysCLASSES
         static void Main(string[] args)
         {
             string file = "Tickets.csv";
+            Ticket ticket = new Ticket();
             string choice;
             do
             {
@@ -21,10 +22,11 @@ namespace DotNetTicketSysCLASSES
                     if (File.Exists(file))
                     {
                         StreamReader sr = new StreamReader(file);
+                        
                         while (!sr.EndOfStream)
                         {
-                            Ticket ticket = new Ticket();
-                            ticket.line = sr.ReadLine();
+                            string line = sr.ReadLine();
+                            ticket.arr = line.Split('|');
                             Console.WriteLine(ticket.Display());
                             
                         }
@@ -37,7 +39,29 @@ namespace DotNetTicketSysCLASSES
                 }
                 else if (choice == "2")
                 {
+                    StreamWriter sw = new StreamWriter(file);
+                    for (int i = 1; i < 10; i++)
+                    {
+                        ticket.ticketId = i;
+                        Console.WriteLine("Enter a Ticket (Y/N)?");
+                        string resp = Console.ReadLine().ToUpper();
+                        if (resp != "Y") { break; }
+                        Console.WriteLine("Enter the summary of the ticket.");
+                        ticket.summary = Console.ReadLine();
+                        Console.WriteLine("Enter the current status.");
+                        ticket.status = Console.ReadLine();
+                        Console.WriteLine("Enter the priority.");
+                        ticket.priority = Console.ReadLine();
+                        Console.WriteLine("Who submitted the ticket?");
+                        ticket.submitter = Console.ReadLine();
+                        Console.WriteLine("Who is assigned the ticket?");
+                        ticket.assigned = Console.ReadLine();
+                        Console.WriteLine("Who is watching?");
+                        ticket.watching = Console.ReadLine();
 
+                        sw.WriteLine(ticket.WriteTicket());
+                    }
+                    sw.Close();
                 }
             } while (choice == "1" || choice == "2");
         }
