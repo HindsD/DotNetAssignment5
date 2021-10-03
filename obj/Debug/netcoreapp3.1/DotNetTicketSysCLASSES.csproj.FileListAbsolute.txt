@@ -1,0 +1,13 @@
+E:\code stuff\DotNetTicketSysCLASSES\bin\Debug\netcoreapp3.1\DotNetTicketSysCLASSES.exe
+E:\code stuff\DotNetTicketSysCLASSES\bin\Debug\netcoreapp3.1\DotNetTicketSysCLASSES.deps.json
+E:\code stuff\DotNetTicketSysCLASSES\bin\Debug\netcoreapp3.1\DotNetTicketSysCLASSES.runtimeconfig.json
+E:\code stuff\DotNetTicketSysCLASSES\bin\Debug\netcoreapp3.1\DotNetTicketSysCLASSES.runtimeconfig.dev.json
+E:\code stuff\DotNetTicketSysCLASSES\bin\Debug\netcoreapp3.1\DotNetTicketSysCLASSES.dll
+E:\code stuff\DotNetTicketSysCLASSES\bin\Debug\netcoreapp3.1\DotNetTicketSysCLASSES.pdb
+E:\code stuff\DotNetTicketSysCLASSES\obj\Debug\netcoreapp3.1\DotNetTicketSysCLASSES.csprojAssemblyReference.cache
+E:\code stuff\DotNetTicketSysCLASSES\obj\Debug\netcoreapp3.1\DotNetTicketSysCLASSES.AssemblyInfoInputs.cache
+E:\code stuff\DotNetTicketSysCLASSES\obj\Debug\netcoreapp3.1\DotNetTicketSysCLASSES.AssemblyInfo.cs
+E:\code stuff\DotNetTicketSysCLASSES\obj\Debug\netcoreapp3.1\DotNetTicketSysCLASSES.csproj.CoreCompileInputs.cache
+E:\code stuff\DotNetTicketSysCLASSES\obj\Debug\netcoreapp3.1\DotNetTicketSysCLASSES.dll
+E:\code stuff\DotNetTicketSysCLASSES\obj\Debug\netcoreapp3.1\DotNetTicketSysCLASSES.pdb
+E:\code stuff\DotNetTicketSysCLASSES\obj\Debug\netcoreapp3.1\DotNetTicketSysCLASSES.genruntimeconfig.cache

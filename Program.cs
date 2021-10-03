@@ -20,7 +20,15 @@ namespace DotNetTicketSysCLASSES
                 {
                     if (File.Exists(file))
                     {
-                        
+                        StreamReader sr = new StreamReader(file);
+                        while (!sr.EndOfStream)
+                        {
+                            Ticket ticket = new Ticket();
+                            ticket.line = sr.ReadLine();
+                            Console.WriteLine(ticket.Display());
+                            
+                        }
+                        sr.Close();
                     }
                     else
                     {

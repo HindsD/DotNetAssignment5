@@ -15,6 +15,7 @@ namespace DotNetTicketSysCLASSES
         public string line { get;  set; }
 
         public Ticket(){
+            ticketId = 0;
             summary = "";
             status = "";
             priority = "";
@@ -24,8 +25,14 @@ namespace DotNetTicketSysCLASSES
             }
 
         public string Display(){
-            string[] arr = line.Split('|');
-            return ($"TicketID: {arr[0]}\nSummary: {arr[1]}\nStatus: {arr[2]}\nPriority: {arr[3]}\nSubmitter: {arr[4]}\nAssigned: {arr[5]}\nWatching: {arr[6]}");
+            if(summary!="")
+            {
+                string[] arr = line.Split('|');
+                return ($"TicketID: {arr[0]}\nSummary: {arr[1]}\nStatus: {arr[2]}\nPriority: {arr[3]}\nSubmitter: {arr[4]}\nAssigned: {arr[5]}\nWatching: {arr[6]}");
+            }
+            else{
+                return "No tickets within database";
+            }
         }
     }
 }
