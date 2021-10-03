@@ -11,3 +11,7 @@ E:\code stuff\DotNetTicketSysCLASSES\obj\Debug\netcoreapp3.1\DotNetTicketSysCLAS
 E:\code stuff\DotNetTicketSysCLASSES\obj\Debug\netcoreapp3.1\DotNetTicketSysCLASSES.dll
 E:\code stuff\DotNetTicketSysCLASSES\obj\Debug\netcoreapp3.1\DotNetTicketSysCLASSES.pdb
 E:\code stuff\DotNetTicketSysCLASSES\obj\Debug\netcoreapp3.1\DotNetTicketSysCLASSES.genruntimeconfig.cache
+E:\code stuff\DotNetTicketSysCLASSES\bin\Debug\netcoreapp3.1\NLog.dll
+E:\code stuff\DotNetTicketSysCLASSES\bin\Debug\netcoreapp3.1\NLog.Extensions.Logging.dll
+E:\code stuff\DotNetTicketSysCLASSES\bin\Debug\netcoreapp3.1\NLog.Web.AspNetCore.dll
+E:\code stuff\DotNetTicketSysCLASSES\obj\Debug\netcoreapp3.1\DotNetTicketSysCLASSES.csproj.CopyComplete

@@ -1,0 +1,17 @@
+2021-10-02 21:53:27.9894|INFO|DotNetTicketSysCLASSES.Program|Program started
+2021-10-02 21:53:36.5069|INFO|DotNetTicketSysCLASSES.Program|User choice: 1
+2021-10-02 21:53:36.5069|ERROR|DotNetTicketSysCLASSES.Program|File does not exist: Tickets.csv
+2021-10-02 21:53:41.7867|INFO|DotNetTicketSysCLASSES.Program|User choice: 2
+2021-10-02 21:53:59.2635|INFO|DotNetTicketSysCLASSES.Program|User choice: 1
+2021-10-02 21:53:59.2657|ERROR|DotNetTicketSysCLASSES.Program|File does not exist: Tickets.csv
+2021-10-02 21:54:03.9861|INFO|DotNetTicketSysCLASSES.Program|User choice: 
+2021-10-02 21:54:03.9861|INFO|DotNetTicketSysCLASSES.Program|Program ended
+2021-10-02 21:54:36.4553|INFO|DotNetTicketSysCLASSES.Program|Program started
+2021-10-02 21:54:47.1383|INFO|DotNetTicketSysCLASSES.Program|User choice: 1
+2021-10-02 21:54:47.1400|ERROR|DotNetTicketSysCLASSES.Program|File does not exist: Tickets.csv
+2021-10-02 21:54:59.1678|INFO|DotNetTicketSysCLASSES.Program|User choice: 
+2021-10-02 21:54:59.1678|INFO|DotNetTicketSysCLASSES.Program|Program ended
+2021-10-02 21:55:06.0319|INFO|DotNetTicketSysCLASSES.Program|Program started
+2021-10-02 21:55:07.1130|INFO|DotNetTicketSysCLASSES.Program|User choice: 1
+2021-10-02 21:55:13.4064|INFO|DotNetTicketSysCLASSES.Program|User choice: 
+2021-10-02 21:55:13.4064|INFO|DotNetTicketSysCLASSES.Program|Program ended
